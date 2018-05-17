@@ -14,6 +14,7 @@ class Anagram
         matches += possible_match
       end
     end
+    matches
   end
 
 end
