@@ -13,6 +13,7 @@ class Anagram
       if possible_match.split("").sort == word.split("").sort
         matches += possible_match
       end
+    end
   end
 
 end
